@@ -2,10 +2,7 @@ import pandas as pd
 import nltk
 
 
-
-
 def prep(file  ='spam_ham_dataset.csv'):
-    
     nltk.download('punkt')
     nltk.download('wordnet')
 
